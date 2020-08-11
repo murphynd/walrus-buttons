@@ -1,12 +1,37 @@
-#walrus-showing {
+#walrus-initially-showing {
+  display: none;
+}
+#panda-initially-showing {
   display: none;
 }
 
-.clickable {
+.toggle-walrus {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+.toggle-walrus:hover {
   text-decoration: underline;
+}
+.toggle-panda {
+  cursor: pointer;
+  color:purple;
+}
+
+.toggle-panda:hover {
+  text-decoration: underline;
+}
+.green-background {
+  background-color: green;
+  color:white;
+}
+
+.yellow-background {
+  background-color: yellow; 
+  color:purple
+}
+
+.red-background {
+  background-color: red;
+  color:darkblue;
 }
